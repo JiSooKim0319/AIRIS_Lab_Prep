@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Week1_day3: 파이썬 설치 및 변수/출력 학습 완료">
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/25.07.24_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/Quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-1_리스트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-2_사전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-3_튜플.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-4_세트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-5_자료구조의 변경.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-6_퀴즈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.21_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/day_1/25.07.21_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.22_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/day_2/25.07.22_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.23_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/day_3/25.07.23_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/day_1/25.07.21_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.21_01/25.07.21_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/day_2/25.07.22_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.22_02/25.07.22_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/day_3/25.07.23_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.23_03/25.07.23_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/25.07.24_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.24_04/25.07.24_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.24_04/Quiz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +65,13 @@
     "Python.25.07.22_02.executor": "Run",
     "Python.25.07.23_03.executor": "Run",
     "Python.25.07.24_04.executor": "Run",
+    "Python.25.07.29_5-1.executor": "Run",
+    "Python.5-1_리스트.executor": "Run",
+    "Python.5-2_사전.executor": "Run",
+    "Python.5-3_튜플.executor": "Run",
+    "Python.5-4_세트.executor": "Run",
+    "Python.5-5_자료구조의 변경.executor": "Run",
+    "Python.5-6_퀴즈.executor": "Run",
     "Python.Quiz.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,31 +98,7 @@
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Quiz">
-    <configuration name="25.07.22_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PyCharmMiscProject)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_1" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_1/day_2/25.07.22_02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5-6_퀴즈">
     <configuration name="25.07.23_03" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -134,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="25.07.24_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-2_사전" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/25.07.24_04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-2_사전.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Quiz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5-3_튜플" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,12 +155,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_1/day_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_1/day_4/Quiz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-3_튜플.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5-4_세트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-4_세트.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5-5_자료구조의 변경" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-5_자료구조의 변경.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5-6_퀴즈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-6_퀴즈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,9 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Quiz" />
-        <item itemvalue="Python.25.07.24_04" />
-        <item itemvalue="Python.25.07.22_02" />
+        <item itemvalue="Python.5-6_퀴즈" />
+        <item itemvalue="Python.5-5_자료구조의 변경" />
+        <item itemvalue="Python.5-4_세트" />
+        <item itemvalue="Python.5-3_튜플" />
+        <item itemvalue="Python.5-2_사전" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +267,9 @@
       <workItem from="1753176711868" duration="3969000" />
       <workItem from="1753260063998" duration="6036000" />
       <workItem from="1753351258421" duration="5244000" />
-      <workItem from="1753430404008" duration="10705000" />
+      <workItem from="1753430404008" duration="11360000" />
+      <workItem from="1753777811729" duration="25000" />
+      <workItem from="1753777857757" duration="14237000" />
     </task>
     <task id="LOCAL-00001" summary="Day1 _ 파이썬 설치 및 변수/출력 학습 완료">
       <option name="closed" value="true" />
@@ -257,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753272587587</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Week1_day3: 파이썬 설치 및 변수/출력 학습 완료">
+      <option name="closed" value="true" />
+      <created>1753444567675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753444567675</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +340,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Week1_day3: 파이썬 설치 및 변수/출력 학습 완료" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_22_02.coverage" NAME="25.07.22_02 Coverage Results" MODIFIED="1753351556014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_2_.coverage" NAME="5-2_사전 Coverage Results" MODIFIED="1753788298577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_1_.coverage" NAME="5-1_리스트 Coverage Results" MODIFIED="1753780994440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
     <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_21_01.coverage" NAME="25.07.21_01 Coverage Results" MODIFIED="1753099734956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
-    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_24_04.coverage" NAME="25.07.24_04 Coverage Results" MODIFIED="1753443444335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
-    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$Quiz.coverage" NAME="Quiz Coverage Results" MODIFIED="1753443981035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1/day_4" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_4_.coverage" NAME="5-4_세트 Coverage Results" MODIFIED="1753844032277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
     <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_23_03.coverage" NAME="25.07.23_03 Coverage Results" MODIFIED="1753430701600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_5__.coverage" NAME="5-5_자료구조의 변경 Coverage Results" MODIFIED="1753844432353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_3_.coverage" NAME="5-3_튜플 Coverage Results" MODIFIED="1753841414661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_22_02.coverage" NAME="25.07.22_02 Coverage Results" MODIFIED="1753351556014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_29_5_1.coverage" NAME="25.07.29_5-1 Coverage Results" MODIFIED="1753778903528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/day_5" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$25_07_24_04.coverage" NAME="25.07.24_04 Coverage Results" MODIFIED="1753443444335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$Quiz.coverage" NAME="Quiz Coverage Results" MODIFIED="1753778305510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_1/day_4" />
+    <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_6_.coverage" NAME="5-6_퀴즈 Coverage Results" MODIFIED="1753848394782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
   </component>
 </project>
