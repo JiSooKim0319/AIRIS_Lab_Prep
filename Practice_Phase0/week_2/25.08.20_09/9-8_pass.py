@@ -55,11 +55,21 @@ class FlyableAttackUnit(AttackUnit, Flyable):
     def move(self, location):
         print("[공중 유닛 이동]")
         self.fly(self.name, location)
-# 벌쳐 : 지상 유닛, 기동성이 좋음
-vlture = AttackUnit("벌쳐", 80, 10, 20)
 
-# 배틀 크루져 : 공중 유닛, 체력도 굉장히 좋음, 공격력 좋음
-battlecluiser = FlyableAttackUnit("배틀크루져", 500, 25, 3)
+# Pass
+# def game_start():
+#     print("게임이 시작됩니다.")
+#
+# def game_end():
+#     print("게임이 종료됩니다.")
+#     pass
+#
+# game_start()
+# game_end()
 
-vlture.move("11시")
-battlecluiser.move("9시")
+class BuildingUnit(Unit):
+    def __init__(self, name, hp, location):
+        # Unit.__init__(self, name, hp, 0)
+        super().__init__(name, hp, 0) # super은 다중 상속 시 맨 앞 부모만 가져올 수 있음.
+                                             # 그렇기에 두 가지 이상의 상속을 받으려면 Unit. Flyable __init__ 따로 생성 해야 함.
+        self.location = location
