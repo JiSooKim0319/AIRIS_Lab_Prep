@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Welcome">
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-1_예외처리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-2_에러 발생시키기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-4_finally.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-5_퀴즈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/theater_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-6_pip install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-7_내장함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-8_외장함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/thailand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/vietnam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +64,10 @@
     "Python.10-3_사용자 정의 예외처리.executor": "Run",
     "Python.10-4_finally.executor": "Run",
     "Python.10-5_퀴즈.executor": "Run",
+    "Python.11-1_모듈.executor": "Run",
+    "Python.11-6_pip install.executor": "Run",
+    "Python.11-7_내장함수.executor": "Run",
+    "Python.11-8_외장함수.executor": "Run",
     "Python.25.07.21_01.executor": "Run",
     "Python.25.07.22_02.executor": "Run",
     "Python.25.07.23_03.executor": "Run",
@@ -100,6 +108,10 @@
     "Python.9-8_pass.executor": "Run",
     "Python.9-9_프로젝트 전반전.executor": "Run",
     "Python.Quiz.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.practice (1).executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.thailand.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -123,15 +135,15 @@
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
+      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_2" />
-      <recent name="$PROJECT_DIR$/Practice_Phase0/week_1/day_4" />
-      <recent name="$PROJECT_DIR$/Practice_Phase0/week_1/day_3" />
-      <recent name="$PROJECT_DIR$/Practice_Phase0/week_1/day_2" />
+      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel_1" />
+      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/travel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10-5_퀴즈">
-    <configuration name="10-1_예외처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.11-8_외장함수">
+    <configuration name="11-6_pip install" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-1_예외처리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-6_pip install.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10-2_에러 발생시키기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11-7_내장함수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-2_에러 발생시키기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-7_내장함수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10-3_사용자 정의 예외처리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11-8_외장함수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,55 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10-4_finally" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-4_finally.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10-5_퀴즈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-5_퀴즈.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-8_외장함수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,13 +233,101 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/travel/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thailand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/thailand.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10-5_퀴즈" />
-        <item itemvalue="Python.10-4_finally" />
-        <item itemvalue="Python.10-3_사용자 정의 예외처리" />
-        <item itemvalue="Python.10-2_에러 발생시키기" />
-        <item itemvalue="Python.10-1_예외처리" />
+        <item itemvalue="Python.11-8_외장함수" />
+        <item itemvalue="Python.11-7_내장함수" />
+        <item itemvalue="Python.11-6_pip install" />
+        <item itemvalue="Python.practice (1)" />
+        <item itemvalue="Python.thailand" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755763672132</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1756197901864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756197901865</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
