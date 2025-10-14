@@ -5,16 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Welcome">
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/theater_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-6_pip install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-7_내장함수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-8_외장함수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/thailand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/vietnam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python_Practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Think_DSP/1-3_Signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Think_DSP/1-4_Reading and writing Waves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Think_DSP/thinkdsp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.21_01/25.07.21_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.21_01/25.07.21_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.22_02/25.07.22_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.22_02/25.07.22_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.23_03/25.07.23_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.23_03/25.07.23_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.24_04/25.07.24_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.24_04/25.07.24_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_1/25.07.24_04/Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.24_04/Quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-1_리스트.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-1_리스트.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-2_사전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-2_사전.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-3_튜플.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-3_튜플.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-4_세트.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-4_세트.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-5_자료구조의 변경.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-5_자료구조의 변경.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05/5-6_퀴즈.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-6_퀴즈.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-1_If.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-1_If.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-2_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-2_for.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-3_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-3_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-4_continue &amp; break.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-4_continue &amp; break.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-5_한줄 for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-5_한줄 for.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.14_06/6-6_Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-6_Quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.15_07/7-(1, 2)_함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-(1, 2)_함수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.15_07/7-(3, 4)_기본값, 키워드 값.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-(3, 4)_기본값, 키워드 값.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.15_07/7-5_가변인자.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-5_가변인자.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.15_07/7-6_지역변수 &amp; 전역변수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-6_지역변수 &amp; 전역변수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.15_07/7-7_ Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-7_ Quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-1_표준입출력.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-1_표준입출력.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-2_다양한 출력포맷.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-2_다양한 출력포맷.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-3_파일 입출력.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-3_파일 입출력.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-4_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-4_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-5_with.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-5_with.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.18_08/8-6_Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-6_Quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-10_프로젝트 후반전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-10_프로젝트 후반전.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-1_클래스.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-1_클래스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-2_init_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-2_init_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-3_멤버변수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-3_멤버변수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-4_메소드.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-4_메소드.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-5_상속.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-5_상속.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-6_다중 상속.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-6_다중 상속.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-7_메소드 오버 라이팅.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-7_메소드 오버 라이팅.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-8_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-8_pass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.20_09/9-9_프로젝트 전반전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-9_프로젝트 전반전.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-1_예외처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-1_예외처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-2_에러 발생시키기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-2_에러 발생시키기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-4_finally.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-4_finally.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.26_10/10-5_퀴즈.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-5_퀴즈.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-1_모듈/theater_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/theater_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-6_pip install.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-6_pip install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-7_내장함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-7_내장함수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-8_외장함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-8_외장함수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/thailand.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/thailand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/vietnam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/vietnam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +110,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1-4_Reading and writing Waves.executor": "Run",
     "Python.10-1_예외처리.executor": "Run",
     "Python.10-2_에러 발생시키기.executor": "Run",
     "Python.10-3_사용자 정의 예외처리.executor": "Run",
@@ -108,10 +160,13 @@
     "Python.9-8_pass.executor": "Run",
     "Python.9-9_프로젝트 전반전.executor": "Run",
     "Python.Quiz.executor": "Run",
+    "Python.Signals.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.practice (1).executor": "Run",
     "Python.practice.executor": "Run",
     "Python.thailand.executor": "Run",
+    "Python.thinkdsp_Code.executor": "Run",
+    "Python.힙합.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -135,15 +190,15 @@
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Practice/Python_Practice" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_2" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel_1" />
-      <recent name="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/travel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11-8_외장함수">
-    <configuration name="11-6_pip install" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1-4_Reading and writing Waves">
+    <configuration name="힙합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-6_pip install.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/힙합.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11-7_내장함수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1-3_Signals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +229,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice/Think_DSP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/11-7_내장함수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Think_DSP/1-3_Signals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1-4_Reading and writing Waves" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice/Think_DSP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Think_DSP/1-4_Reading and writing Waves.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +310,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="thinkdsp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,77 +319,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice/Think_DSP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/travel/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="thailand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_2/25.08.27_11/travel/thailand.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice/Think_DSP/thinkdsp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1-4_Reading and writing Waves" />
+        <item itemvalue="Python.1-3_Signals" />
+        <item itemvalue="Python.thinkdsp_Code" />
+        <item itemvalue="Python.힙합" />
         <item itemvalue="Python.11-8_외장함수" />
-        <item itemvalue="Python.11-7_내장함수" />
-        <item itemvalue="Python.11-6_pip install" />
-        <item itemvalue="Python.practice (1)" />
-        <item itemvalue="Python.thailand" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756197901865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1756285078483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756285078483</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
