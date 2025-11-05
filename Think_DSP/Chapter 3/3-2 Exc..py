@@ -53,10 +53,10 @@ plt.show()
 # 6) WAV 저장 (int16 변환)
 y_lin_i16 = (y_lin * 32767).astype(np.int16)
 y_exp_i16 = (y_exp * 32767).astype(np.int16)
-write("chirp_linear_440_to_3oct.wav", fs, y_lin_i16)
-write("chirp_exponential_440_to_3oct.wav", fs, y_exp_i16)
-print("Saved:", os.path.abspath("chirp_linear_440_to_3oct.wav"))
-print("Saved:", os.path.abspath("chirp_exponential_440_to_3oct.wav"))
+write("OutPut/chirp_linear_440_to_3oct.wav", fs, y_lin_i16)
+write("OutPut/chirp_exponential_440_to_3oct.wav", fs, y_exp_i16)
+print("Saved:", os.path.abspath("OutPut/chirp_linear_440_to_3oct.wav"))
+print("Saved:", os.path.abspath("OutPut/chirp_exponential_440_to_3oct.wav"))
 
 # 7) 간단 재생 (플랫폼별)
 def play(path):
@@ -70,6 +70,6 @@ def play(path):
             os.system(f"xdg-open '{path}'")
 
 print("Playing Linear...")
-play("chirp_linear_440_to_3oct.wav")
+play("OutPut/chirp_linear_440_to_3oct.wav")
 print("Playing Exponential...")
-play("chirp_exponential_440_to_3oct.wav")
+play("OutPut/chirp_exponential_440_to_3oct.wav")

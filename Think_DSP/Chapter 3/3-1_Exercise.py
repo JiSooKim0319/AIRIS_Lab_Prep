@@ -35,7 +35,7 @@ plt.ylabel("Amplitude")
 plt.show()
 
 # 5) Save to Files (tone.wav)
-filename = "linear_chirp.wav"
+filename = "OutPut/linear_chirp.wav"
 wave.write(filename)
 print(f"파일 저장 완료 : {filename}")
 
