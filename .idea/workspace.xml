@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Welcome">
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-8_ Implementing spectrograms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Think_DSP/Chapter 4/4-1_Uncorrelated Noise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-1_Exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-1_Exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-2 Exc..py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-2 Exc..py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-4_Spectrogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Chapter 3/3-4_Spectrogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Think_DSP/Chapter 3/thinkdsp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Chapter 4/thinkdsp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
     "Python.3-4_Spectrogram.executor": "Run",
     "Python.3-6_Leakage.executor": "Run",
     "Python.3-8_ Implementing spectrograms.executor": "Run",
+    "Python.4-1_Uncorrelated Noise.executor": "Run",
     "Python.5-1_리스트.executor": "Run",
     "Python.5-2_사전.executor": "Run",
     "Python.5-3_튜플.executor": "Run",
@@ -149,14 +150,14 @@
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Think_DSP/Chapter 4/Output" />
+      <recent name="$PROJECT_DIR$/Think_DSP/Chapter 4" />
       <recent name="$PROJECT_DIR$/Think_DSP/Chapter 3" />
       <recent name="$PROJECT_DIR$/Think_DSP/Chapter 3/OutPut" />
       <recent name="$PROJECT_DIR$/Think_DSP/Chapter 2" />
-      <recent name="$PROJECT_DIR$/Think_DSP" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.function_base">
+  <component name="RunManager" selected="Python.4-1_Uncorrelated Noise">
     <configuration name="25.07.23_03" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -195,28 +196,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Think_DSP/Chapter 3/3-4_Exc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3-4_Spectrogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Think_DSP/Chapter 3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Think_DSP/Chapter 3/3-4_Spectrogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,6 +248,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4-1_Uncorrelated Noise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Think_DSP/Chapter 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Think_DSP/Chapter 4/4-1_Uncorrelated Noise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="function_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -293,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4-1_Uncorrelated Noise" />
         <item itemvalue="Python.function_base" />
         <item itemvalue="Python.3-8_ Implementing spectrograms" />
         <item itemvalue="Python.3-6_Leakage" />
         <item itemvalue="Python.3-4_Exc" />
-        <item itemvalue="Python.3-4_Spectrogram" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762147915267</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1762321143844</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762321143844</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
