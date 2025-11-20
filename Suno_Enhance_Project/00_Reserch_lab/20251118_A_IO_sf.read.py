@@ -55,4 +55,15 @@ if p.exists() and p.is_file():
 else:
     print(f"'{p.name}' 파일을 찾을 수 없습니다.")
 
+# 4) sf.read()의 주요 옵션 dtype
+# 오디오 데이터의 타입을 직접 지정할 수 있습니다. `dtype`은 데이터의 정밀도와 값의 범위를 결정합니다.
 
+file_path = Path("my_audio.wav")
+if file_path.exists():
+    # 데이터를 float32 타입으로 읽기 (값의 범위: -1.0 ~ 1.0)
+    data_float, sr_float = sf.read(file_path, dtype='float32')
+    print(f"Float32 최대값: {data_float.max()}") # 1.0에 가까운 값 출력
+
+    # 데이터를 int16 타입으로 읽기 (값의 범위: -32768 ~ 32767)
+    data_int, sr_int = sf.read(file_path, dtype='int16')
+    print(f"Int16 최대값: {data_int.max()}") # 32767에 가까운 값 출력
