@@ -47,7 +47,7 @@ import soundfile as sf
 
 # 3) 예제: `if`문과 `try`를 활용한 통합 처리
 # soundfile로 원본을 유지함 로드한 후, if 문으로 채널과 샘플레이트를 검사혀 필요할 때만 변한하는 실용적인 예제.
-p = Path("input_low_volume.wav")
+p = Path("data/input_low_volume.wav")
 TARGET_SR = 44100
 
 try:

@@ -112,7 +112,7 @@ def normalize_and_save(input_path_str: str, output_path_str: str):
 # -----------------------------------------------------------
 # 주의: 'input_low_volume.wav' 파일이 현재 실행 폴더에 있어야 합니다.
 normalize_and_save(
-    input_path_str='input_low_volume.wav',
+    input_path_str='data/input_low_volume.wav',
     output_path_str='data/output_normalized.wav'
 )
 
