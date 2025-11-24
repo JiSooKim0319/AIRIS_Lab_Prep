@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Welcome">
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251122_np_clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251122_sf_write.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/20251121_A_IO_Robustness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251124_Save_Audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/audio_io.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251115_A_IO_def.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251115_A_IO_def.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251115_A_IO_if,else,elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251115_A_IO_if,else,elif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251117_A_IO_raise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251117_A_IO_raise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251118_A_IO_exists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251118_A_IO_exists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251118_A_IO_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251118_A_IO_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251118_A_IO_sf.read.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251118_A_IO_sf.read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251119_A_IO_librosa.read.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251119_A_IO_librosa.read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251121_A_IO_resample, to_mono.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251121_A_IO_resample, to_mono.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/a_core_audio_engine/01_io/20251121_A_IO_load.audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/20251121_A_IO_load.audio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/20251121_A_IO_Robustness.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251121_A_IO_Robustness.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/20251121_A_IO_load.audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251121_A_IO_load.audio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +84,7 @@
     "Python.20251121_A_IO_resample, to_mono.executor": "Run",
     "Python.20251122_np_clip.executor": "Run",
     "Python.20251122_sf_write.executor": "Run",
+    "Python.20251124_Save_Audio.executor": "Run",
     "Python.25.07.21_01.executor": "Run",
     "Python.25.07.22_02.executor": "Run",
     "Python.25.07.23_03.executor": "Run",
@@ -143,6 +136,7 @@
     "Python.Quiz.executor": "Run",
     "Python.Signals.executor": "Run",
     "Python.__init__.executor": "Run",
+    "Python.audio_io.executor": "Run",
     "Python.function_base.executor": "Run",
     "Python.practice (1).executor": "Run",
     "Python.practice.executor": "Run",
@@ -174,14 +168,14 @@
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio" />
+      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/data" />
+      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_io" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine" />
-      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio" />
-      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/data" />
-      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/01_src/a_core_audio_engine/01_io" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20251121_A_IO_Robustness">
+  <component name="RunManager" selected="Python.Test_audio_io">
     <configuration name="20251121_A_IO_Robustness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -195,73 +189,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/20251121_A_IO_Robustness.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251121_A_IO_load.audio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/a_core_audio_engine/01_io/20251121_A_IO_load.audio.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251121_A_IO_resample, to_mono" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_Load_aduio/20251121_A_IO_resample, to_mono.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251122_np_clip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251122_np_clip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251121_A_IO_Robustness.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +211,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251122_sf_write.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251122_sf_write.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20251124_Save_Audio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251124_Save_Audio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,13 +266,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_audio_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/02_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/02_tests/Test_audio_io.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="audio_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/audio_io.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test_audio_io" />
+        <item itemvalue="Python.audio_io" />
+        <item itemvalue="Python.20251124_Save_Audio" />
         <item itemvalue="Python.20251121_A_IO_Robustness" />
         <item itemvalue="Python.20251122_sf_write" />
-        <item itemvalue="Python.20251122_np_clip" />
-        <item itemvalue="Python.20251121_A_IO_load.audio" />
-        <item itemvalue="Python.20251121_A_IO_resample, to_mono" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +597,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763701455419</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1763799976418</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1763799976418</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
