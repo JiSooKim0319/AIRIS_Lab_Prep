@@ -6,24 +6,30 @@ from pathlib import Path
 
 def load_audio(input_path : str, target_sr: int = 44100, mono: bool = True):
     p = Path(input_path)
+    # 1. 파일 존재 여부 검사
     if not p.exists():
         print(f"File '{input_path}' does not exist")
         sys.exit(1)
-
-    if not (p.suffix == ".wav" or p.suffix == ".mp3"):
-        print(f"File '{p.suffix}' is not a .wav or .mp3 file")
+    # 2. 확장자 검사 (***수정됨: .lower() 적용***)
+    # 확장자를 소문자로 변환하여 .WAV, .MP3도 허용합니다.
+    suffix_lower = p.suffix.lower()
+    if not (suffix_lower== ".wav" or suffix_lower == ".mp3"):
+        print(f"File '{input_path}' has unsupported suffix '{p.suffix}'")
         sys.exit(1)
 
     try:
+        # 3. Librosa 로드 (mono=mono로 수정하여 유연성 확보)
         print(f"Loading audio from '{input_path}'")
-        y, sr = librosa.load(p, sr=target_sr, mono=True)
+        y, sr = librosa.load(p, sr=target_sr, mono=mono)
+        # 4. Duration Guard Check (300초 = 5분)
         duration = librosa.get_duration(y=y, sr=sr)
         if duration > 300:
             raise Exception(f"Audio duration is too long ({duration:.2f}s)")
-
+        # 5. 최종 반환
         return y, sr, duration
 
     except Exception as e:
+        # 파일 손상, 코덱 문제 등 예상치 못한 오류 처리
         print(f"Failed to load audio from '{e}'")
         sys.exit(1)
 

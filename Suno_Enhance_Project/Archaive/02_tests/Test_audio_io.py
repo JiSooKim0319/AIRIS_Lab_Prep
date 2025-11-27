@@ -77,7 +77,7 @@ def save_audio(output_path: str, data: np.ndarray, sr: int = 44100, subtype: str
 
 # --- [3] 실행 테스트 (Main) ---
 if __name__ == "__main__":
-    print("--- 🚀 Audio Engine I/O Test Start ---")
+    print("---  Audio Engine I/O Test Start ---")
 
     # 1. 테스트용 파일 경로 (본인의 파일이 있다면 경로를 수정하세요!)
     # 파일이 없으면 자동으로 테스트용 노이즈를 생성해서 저장부터 테스트합니다.
@@ -95,7 +95,7 @@ if __name__ == "__main__":
         save_audio(output_file, y, sr)
     else:
         # B. 더미 데이터 테스트 (파일이 없을 때)
-        print(f"ℹ️ '{input_file}' 파일이 없어 테스트용 노이즈를 생성합니다.")
+        print(f"ℹ'{input_file}' 파일이 없어 테스트용 노이즈를 생성합니다.")
         dummy_sr = 44100
         # 3초짜리 랜덤 노이즈 생성
         dummy_data = np.random.randn(dummy_sr * 3).astype(np.float32) * 0.5

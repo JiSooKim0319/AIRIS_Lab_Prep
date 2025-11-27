@@ -7,7 +7,7 @@ import soundfile as sf
 from pathlib import Path
 
 # 1. 파라미터 정의
-OUTPUT_FILENAME = "test_output.wav"
+OUTPUT_FILENAME = "../test_input.wav"
 SR = 44100
 DURATION_SEC = 2
 N_SAMPLES = int(SR * DURATION_SEC)
