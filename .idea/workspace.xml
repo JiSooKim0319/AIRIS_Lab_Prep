@@ -5,134 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Save_audio 함수 생성 완료.&#10;src --&gt; audio_io.py에 load,save_audio 함수 묶어서 관리">
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.24_04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/주차.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/Practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Think_DSP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251127_np_abs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_Display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_feature_rms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Matplotlib_pyplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Plt.Savefig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_librosa_amplitude.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251126_librosa_stft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.21_01/25.07.21_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.21_01/25.07.21_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.22_02/25.07.22_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.22_02/25.07.22_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.23_03/25.07.23_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.23_03/25.07.23_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.24_04/25.07.24_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.24_04/25.07.24_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_1/25.07.24_04/Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.24_04/Quiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-1_리스트.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-1_리스트.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-2_사전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-2_사전.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-3_튜플.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-3_튜플.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-4_세트.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-4_세트.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-5_자료구조의 변경.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-5_자료구조의 변경.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.07.29_05/5-6_퀴즈.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.07.29_05/5-6_퀴즈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-1_If.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-1_If.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-2_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-2_for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-3_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-3_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-4_continue &amp; break.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-4_continue &amp; break.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-5_한줄 for.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-5_한줄 for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.14_06/6-6_Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.14_06/6-6_Quiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-(1, 2)_함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/7-(1, 2)_함수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-(3, 4)_기본값, 키워드 값.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/7-(3, 4)_기본값, 키워드 값.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-5_가변인자.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/7-5_가변인자.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-6_지역변수 &amp; 전역변수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/7-6_지역변수 &amp; 전역변수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.15_07/7-7_ Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.15_07/7-7_ Quiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/10주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/10주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/11주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/11주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/12주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/12주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/13주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/13주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/14주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/14주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/15주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/15주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/16주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/16주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/17주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/17주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/18주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/18주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/19주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/19주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/1주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/1주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/20주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/20주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/21주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/21주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/22주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/22주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/23주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/23주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/24주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/24주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/25주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/25주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/26주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/26주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/27주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/27주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/28주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/28주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/29주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/29주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/2주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/2주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/30주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/30주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/31주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/31주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/32주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/32주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/33주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/33주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/34주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/34주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/35주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/35주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/36주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/36주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/37주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/37주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/38주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/38주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/39주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/39주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/3주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/3주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/40주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/40주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/41주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/41주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/42주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/42주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/43주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/43주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/44주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/44주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/45주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/45주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/46주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/46주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/47주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/47주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/48주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/48주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/49주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/49주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/4주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/4주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/50주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/50주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/5주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/5주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/6주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/6주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/7주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/7주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-1_표준입출력.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-1_표준입출력.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-2_다양한 출력포맷.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-2_다양한 출력포맷.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-3_파일 입출력.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-3_파일 입출력.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-4_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-4_pickle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-5_with.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-5_with.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8-6_Quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8-6_Quiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/8주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/8주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/9주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/9주차.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/profile.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/profile.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/score.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/study.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.18_08/study.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.18_08/주차.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.23_03/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-10_프로젝트 후반전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-10_프로젝트 후반전.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-1_클래스.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-1_클래스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-2_init_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-2_init_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-3_멤버변수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-3_멤버변수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-4_메소드.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-4_메소드.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-5_상속.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-5_상속.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-6_다중 상속.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-6_다중 상속.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-7_메소드 오버 라이팅.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-7_메소드 오버 라이팅.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-8_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-8_pass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.20_09/9-9_프로젝트 전반전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.20_09/9-9_프로젝트 전반전.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-1_예외처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/10-1_예외처리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-2_에러 발생시키기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/10-2_에러 발생시키기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/10-3_사용자 정의 예외처리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-4_finally.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/10-4_finally.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.26_10/10-5_퀴즈.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.26_10/10-5_퀴즈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/theater_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-1_모듈/theater_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-6_pip install.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-6_pip install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-7_내장함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-7_내장함수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/11-8_외장함수.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/11-8_외장함수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.21_01/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/travel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/thailand.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/travel/thailand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/25.08.27_11/travel/vietnam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_2/25.08.27_11/travel/vietnam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Python_Practice/week_2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Think_DSP/Practice/Python_Practice/week_1/25.07.22_02/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251122_sf_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251122_sf_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/audio_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA/audio_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/02_tests/Test_audio_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/Archaive/02_tests/Test_audio_io.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +88,12 @@
     "Python.20251122_sf_write.executor": "Run",
     "Python.20251124_Save_Audio.executor": "Run",
     "Python.20251126_librosa_stft.executor": "Run",
+    "Python.20251127_np_abs.executor": "Run",
+    "Python.20251128_Librosa_Display.executor": "Run",
+    "Python.20251128_Librosa_feature_rms.executor": "Run",
+    "Python.20251128_Matplotlib_pyplot.executor": "Run",
+    "Python.20251128_Plt.Savefig.executor": "Run",
+    "Python.20251128_librosa_amplitude.executor": "Run",
     "Python.25.07.21_01.executor": "Run",
     "Python.25.07.22_02.executor": "Run",
     "Python.25.07.23_03.executor": "Run",
@@ -300,30 +185,8 @@
       <recent name="$PROJECT_DIR$/Think_DSP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20251126_librosa_stft">
-    <configuration name="20251121_A_IO_Robustness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251121_A_IO_Robustness.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251124_Save_Audio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.20251128_Librosa_feature_rms">
+    <configuration name="20251128_Librosa_Display" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,7 +199,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO/20251124_Save_Audio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_Display.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20251126_librosa_stft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20251128_Librosa_feature_rms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,7 +221,73 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251126_librosa_stft.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_feature_rms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20251128_Matplotlib_pyplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Matplotlib_pyplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20251128_Plt.Savefig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Plt.Savefig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20251128_librosa_amplitude" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_librosa_amplitude.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,57 +320,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_audio_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/02_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/02_tests/Test_audio_io.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="audio_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/01_src/A_core_audio_engine/01_IO&amp;DATA/audio_io.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20251126_librosa_stft" />
-        <item itemvalue="Python.Test_audio_io" />
-        <item itemvalue="Python.audio_io" />
-        <item itemvalue="Python.20251124_Save_Audio" />
-        <item itemvalue="Python.20251121_A_IO_Robustness" />
+        <item itemvalue="Python.20251128_Librosa_feature_rms" />
+        <item itemvalue="Python.20251128_Plt.Savefig" />
+        <item itemvalue="Python.20251128_Librosa_Display" />
+        <item itemvalue="Python.20251128_Matplotlib_pyplot" />
+        <item itemvalue="Python.20251128_librosa_amplitude" />
       </list>
     </recent_temporary>
   </component>
@@ -738,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763969863644</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Save_audio 함수 생성 완료.&#10;src --&gt; audio_io.py에 load,save_audio 함수 묶어서 관리">
+      <option name="closed" value="true" />
+      <created>1764212737194</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1764212737194</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
