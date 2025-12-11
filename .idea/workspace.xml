@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="Save_audio 함수 생성 완료.&#10;src --&gt; audio_io.py에 load,save_audio 함수 묶어서 관리">
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251127_np_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_Display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_feature_rms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Matplotlib_pyplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Plt.Savefig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_librosa_amplitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251129_spectral_centroid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251211_Spectrogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/Spectrogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests/test_analysis_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests/test_input.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/Archaive/02_tests/Test_audio_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests/Test_audio_io.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +95,8 @@
     "Python.20251128_Matplotlib_pyplot.executor": "Run",
     "Python.20251128_Plt.Savefig.executor": "Run",
     "Python.20251128_librosa_amplitude.executor": "Run",
+    "Python.20251129_spectral_centroid.executor": "Run",
+    "Python.20251211_Assemble.executor": "Run",
     "Python.25.07.21_01.executor": "Run",
     "Python.25.07.22_02.executor": "Run",
     "Python.25.07.23_03.executor": "Run",
@@ -144,12 +147,15 @@
     "Python.9-9_프로젝트 전반전.executor": "Run",
     "Python.Quiz.executor": "Run",
     "Python.Signals.executor": "Run",
+    "Python.Spectrogram.executor": "Run",
     "Python.Test_audio_io.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.audio_io.executor": "Run",
+    "Python.features.executor": "Run",
     "Python.function_base.executor": "Run",
     "Python.practice (1).executor": "Run",
     "Python.practice.executor": "Run",
+    "Python.test_analysis_pipeline.executor": "Run",
     "Python.thailand.executor": "Run",
     "Python.thinkdsp_Code.executor": "Run",
     "Python.ㅇ.executor": "Run",
@@ -158,7 +164,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_directory_selection": "/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Think_DSP",
-    "last_opened_file_path": "/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Practice_Phase0/week_1",
+    "last_opened_file_path": "/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Suno_Enhance_Project/B02_tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -175,39 +181,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests" />
       <recent name="$PROJECT_DIR$/Practice_Phase0/week_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Suno_Enhance_Project" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/A_IO_SAVE_AUDIO" />
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine" />
-      <recent name="$PROJECT_DIR$/Think_DSP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20251128_Librosa_feature_rms">
-    <configuration name="20251128_Librosa_Display" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Librosa_Display.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_analysis_pipeline">
     <configuration name="20251128_Librosa_feature_rms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -230,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20251128_Matplotlib_pyplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20251211_Spectrogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,51 +228,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Matplotlib_pyplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251128_Plt.Savefig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_Plt.Savefig.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="20251128_librosa_amplitude" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251128_librosa_amplitude.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251211_Spectrogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,13 +261,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Spectrogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/Spectrogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="features" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_analysis_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests/test_analysis_pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_analysis_pipeline" />
+        <item itemvalue="Python.features" />
+        <item itemvalue="Python.Spectrogram" />
+        <item itemvalue="Python.20251211_Spectrogram" />
         <item itemvalue="Python.20251128_Librosa_feature_rms" />
-        <item itemvalue="Python.20251128_Plt.Savefig" />
-        <item itemvalue="Python.20251128_Librosa_Display" />
-        <item itemvalue="Python.20251128_Matplotlib_pyplot" />
-        <item itemvalue="Python.20251128_librosa_amplitude" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764212737194</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Save_audio 함수 생성 완료.&#10;src --&gt; audio_io.py에 load,save_audio 함수 묶어서 관리">
+      <option name="closed" value="true" />
+      <created>1764388131074</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1764388131074</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
