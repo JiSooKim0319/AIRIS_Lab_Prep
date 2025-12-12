@@ -3,7 +3,7 @@ import librosa
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
 # 1. STFT 수행
-y, sr, duration = load_audio("test_input.wav")
+y, sr, duration = load_audio("../test_input.wav")
 D = librosa.stft(y,n_fft = 2048,hop_length = 512)
 
 print(f"D (STFT결과) Shape: {D.shape}") # 1025, Frames

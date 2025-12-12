@@ -5,7 +5,7 @@ import numpy as np
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
 # 1. 데이터 준비
-y, sr , duration = load_audio('test_input.wav')
+y, sr , duration = load_audio('../test_input.wav')
 D = librosa.stft(y, n_fft = 2048,hop_length=512)
 S_dB = librosa.amplitude_to_db(np.abs(D), ref=np.max)
 

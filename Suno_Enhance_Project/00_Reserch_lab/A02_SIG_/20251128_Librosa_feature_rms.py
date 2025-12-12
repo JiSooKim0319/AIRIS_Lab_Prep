@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
 # 1. 데이터 로드
-y, sr , duration = load_audio('test_input.wav')
+y, sr , duration = load_audio('../test_input.wav')
 
 # 2. RMS 에너지 계산 (핵심)
 frame_length = 2048

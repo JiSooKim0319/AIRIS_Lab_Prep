@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
 # 1. 데이터 로드
-y, sr, _ = load_audio("test_input.wav")
+y, sr, _ = load_audio("../test_input.wav")
 
 # 2. Spectral Centroid 계산
 # y를 넣으면 내부적으로 STFT를 수행하고 계산합니다.

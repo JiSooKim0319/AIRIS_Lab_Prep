@@ -5,7 +5,7 @@ import numpy as np
 from pathlib import Path
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
-y, sr , duration = load_audio('test_input.wav')
+y, sr , duration = load_audio('../test_input.wav')
 D = librosa.stft(y, n_fft=2048, hop_length=512)
 s_db = librosa.amplitude_to_db(np.abs(D), ref=np.max)
 
@@ -16,7 +16,7 @@ ax.set_title("spectrogram Analysis Result")
 fig.tight_layout()
 
 #2. 저장 경로 설정 및 폴더 생성
-output_dir = Path("artifacts")
+output_dir = Path("../artifacts")
 output_dir.mkdir(parents=True, exist_ok=True) # 폴더 없으면 생성
 output_file = output_dir / 'analysis_result.png'
 

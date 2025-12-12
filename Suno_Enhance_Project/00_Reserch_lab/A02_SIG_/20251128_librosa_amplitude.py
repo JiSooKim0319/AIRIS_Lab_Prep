@@ -3,7 +3,7 @@ import librosa
 from Suno_Enhance_Project.A01_src.A_core_audio_engine.A01_IO_DATA.audio_io import load_audio
 
 # 1. 이전 단계 (Load -> STFT -> Abs)
-y, sr, duration = load_audio("test_input.wav")
+y, sr, duration = load_audio("../test_input.wav")
 D = librosa.stft(y, n_fft=2048, hop_length=512) # stft =  # D는 원본 데이터(복소수)
 S = np.abs(D) # linear Amplitude # S는 복소수 -> 진폭 변환
 

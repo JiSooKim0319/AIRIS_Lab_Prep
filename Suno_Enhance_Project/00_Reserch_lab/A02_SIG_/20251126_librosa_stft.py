@@ -28,7 +28,7 @@ N_FFT = 2048
 HOP_LENGTH = 512
 
 # 2. 데이터 로드
-y, sr, duration= load_audio("test_input.wav")
+y, sr, duration= load_audio("../test_input.wav")
 D = librosa.stft(y,n_fft=N_FFT, hop_length=HOP_LENGTH) # 질문1 : Hop_length는 왜 보통 n_fft/4를 사용하는가?
 
 
