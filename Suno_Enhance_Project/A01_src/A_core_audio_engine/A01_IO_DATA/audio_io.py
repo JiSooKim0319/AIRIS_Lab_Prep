@@ -4,73 +4,57 @@ import librosa
 import soundfile as sf
 from pathlib import Path
 
-def load_audio(input_path : str, target_sr: int = 44100, mono: bool = True):
+
+def load_audio(input_path: str, target_sr: int = 44100, mono: bool = True):
     p = Path(input_path)
+
     # 1. 파일 존재 여부 검사
     if not p.exists():
-        print(f"File '{input_path}' does not exist")
-        sys.exit(1)
-    # 2. 확장자 검사 (***수정됨: .lower() 적용***)
-    # 확장자를 소문자로 변환하여 .WAV, .MP3도 허용합니다.
+        raise FileNotFoundError(f"File '{input_path}' does not exist")
+
+    # 2. 확장자 검사
     suffix_lower = p.suffix.lower()
-    if not (suffix_lower== ".wav" or suffix_lower == ".mp3"):
-        print(f"File '{input_path}' has unsupported suffix '{p.suffix}'")
-        sys.exit(1)
+    if suffix_lower not in [".wav", ".mp3", ".flac", ".m4a"]:  # FLAC, M4A 추가
+        raise ValueError(f"File '{input_path}' has unsupported suffix '{p.suffix}'")
 
     try:
-        # 3. Librosa 로드 (mono=mono로 수정하여 유연성 확보)
-        print(f"Loading audio from '{input_path}'")
+        print(f"📂 Loading audio from '{p.name}'...")
         y, sr = librosa.load(p, sr=target_sr, mono=mono)
+
         # 4. Duration Guard Check (300초 = 5분)
         duration = librosa.get_duration(y=y, sr=sr)
         if duration > 300:
-            raise Exception(f"Audio duration is too long ({duration:.2f}s)")
-        # 5. 최종 반환
+            raise ValueError(f"Audio duration is too long ({duration:.2f}s)")
+
         return y, sr, duration
 
     except Exception as e:
-        # 파일 손상, 코덱 문제 등 예상치 못한 오류 처리
-        print(f"Failed to load audio from '{e}'")
-        sys.exit(1)
+        print(f"❌ Failed to load audio: {e}")
+        # 여기서 sys.exit() 대신 빈 배열을 반환하거나 에러를 다시 던집니다.
+        # 자동화 파이프라인을 위해 빈 배열과 0을 반환하여 멈추지 않게 합니다.
+        return np.array([]), target_sr, 0.0
+
 
 def save_audio(output_path: str, data: np.ndarray, sr: int = 44100, subtype: str = 'PCM_16'):
-    """
-    오디오 데이터를 지정된 포맷으로 안전하게 파일에 저장합니다.
-
-    Args:
-        output_path (str): 저장할 파일의 경로 (예: 'outputs/result.wav')
-        data (np.ndarray): 저장할 오디오 데이터 (float32, 범위 -1.0 ~ 1.0)
-        sr (int): 샘플레이트 (기본값 44100)
-        subtype (str): 저장 포맷 (기본값 'PCM_16', 고음질 'FLOAT')
-    """
     p = Path(output_path)
 
-    # 1. 데이터 유효성 검사 (빈 데이터 방지)
-    # numpy 배열은 .size로 검사하는 것이 더 명확합니다.
+    # 1. 데이터 유효성 검사
     if data is None or data.size == 0:
-        print(" Error: 저장할 오디오 데이터가 없습니다 (Empty Data).")
-        sys.exit(1)
+        print("⚠️ Error: 저장할 데이터가 비어있습니다.")
+        return  # 강제 종료 대신 함수만 종료
 
-    # 2. 데이터 클리핑 방지 (안전장치)
-    # 1.0을 초과하는 값을 잘라내어 소리가 찢어지는 것을 방지합니다.
+    # 2. 클리핑 방지
     data_safe = np.clip(data, -1.0, 1.0)
 
     try:
-        # 3. [Robustness] 부모 폴더 자동 생성
-        # 저장할 폴더가 없으면 미리 생성합니다.
+        # 3. 부모 폴더 생성
         if not p.parent.exists():
             p.parent.mkdir(parents=True, exist_ok=True)
-            print(f" 폴더가 생성되었습니다: '{p.parent}'")
 
-        # 4. 파일 쓰기 수행
-        print(f" Saving audio to '{p.name}'...")
+        # 4. 저장
+        print(f"💾 Saving to '{p.name}'...")
         sf.write(file=str(p), data=data_safe, samplerate=sr, subtype=subtype)
 
-        # 5. 저장 확인
-        if p.exists():
-            print(f"성공: 파일이 정상적으로 저장되었습니다.")
-
     except Exception as e:
-        # 권한 문제, 디스크 용량 부족 등 런타임 오류 처리
-        print(f" 오류 발생: 파일 저장에 실패했습니다.\n   오류 내용: {e}")
-        sys.exit(1)
+        print(f"❌ Save failed: {e}")
+        # 저장 실패는 치명적일 수 있으니 로그만 남기고 넘어갑니다.
