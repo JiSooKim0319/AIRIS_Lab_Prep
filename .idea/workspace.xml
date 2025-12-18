@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="apply_dc_offset_removal&#10;apply_normaliz&#10;def 제작 완료.">
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/1_Quiet Lights of Christmas_.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251213_IIR Butterworth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251213_Zero-phase_Filtering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251215_HPSS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA/metadata_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A03_Preprocessing/analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A03_Preprocessing/main_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A03_Preprocessing/separation.py" afterDir="false" />
+    <list default="true" id="3bde4c57-7bad-42de-aec1-9ff5c94c8c81" name="Changes" comment="metadata_handler.py&#10;features.py&#10;최신화 및 수정 완료.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA/audio_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA/audio_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A03_Preprocessing/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A03_Preprocessing/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/Spectrogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/Spectrogram.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,138 +48,138 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1-4_Reading and writing Waves.executor": "Run",
-    "Python.1-5_Spectrums.executor": "Run",
-    "Python.1-7_Signal objects.executor": "Run",
-    "Python.1-8_exercises.executor": "Run",
-    "Python.1.9_Exercise.executor": "Run",
-    "Python.10-1_예외처리.executor": "Run",
-    "Python.10-2_에러 발생시키기.executor": "Run",
-    "Python.10-3_사용자 정의 예외처리.executor": "Run",
-    "Python.10-4_finally.executor": "Run",
-    "Python.10-5_퀴즈.executor": "Run",
-    "Python.11-1_모듈.executor": "Run",
-    "Python.11-6_pip install.executor": "Run",
-    "Python.11-7_내장함수.executor": "Run",
-    "Python.11-8_외장함수.executor": "Run",
-    "Python.2-1 Triangle waves.executor": "Run",
-    "Python.2-3 Aliasing.executor": "Run",
-    "Python.2.4 Computing the spectrum.executor": "Run",
-    "Python.20251111_A_IO_Learning_librosa.executor": "Run",
-    "Python.20251115_A_IO_Def.executor": "Run",
-    "Python.20251115_A_IO_if,else,elif.executor": "Run",
-    "Python.20251117_A_IO_raise.executor": "Run",
-    "Python.20251118_A_IO_exists.executor": "Run",
-    "Python.20251118_A_IO_path.executor": "Run",
-    "Python.20251118_A_IO_sf.read.executor": "Run",
-    "Python.20251119_A_IO_librosa.read.executor": "Run",
-    "Python.20251121_A_IO_Robustness.executor": "Run",
-    "Python.20251121_A_IO_load.audio.executor": "Run",
-    "Python.20251121_A_IO_resample, to_mono.executor": "Run",
-    "Python.20251122_np_clip.executor": "Run",
-    "Python.20251122_sf_write.executor": "Run",
-    "Python.20251124_Save_Audio.executor": "Run",
-    "Python.20251126_librosa_stft.executor": "Run",
-    "Python.20251127_np_abs.executor": "Run",
-    "Python.20251128_Librosa_Display.executor": "Run",
-    "Python.20251128_Librosa_feature_rms.executor": "Run",
-    "Python.20251128_Matplotlib_pyplot.executor": "Run",
-    "Python.20251128_Plt.Savefig.executor": "Run",
-    "Python.20251128_librosa_amplitude.executor": "Run",
-    "Python.20251129_spectral_centroid.executor": "Run",
-    "Python.20251211_Assemble.executor": "Run",
-    "Python.20251212_DC Offset Removal.executor": "Run",
-    "Python.20251212_Level Nomalization.executor": "Run",
-    "Python.20251213_IIR Butterworth.executor": "Run",
-    "Python.20251213_Zero-phase_Filtering.executor": "Run",
-    "Python.20251215_HPSS.executor": "Run",
-    "Python.25.07.21_01.executor": "Run",
-    "Python.25.07.22_02.executor": "Run",
-    "Python.25.07.23_03.executor": "Run",
-    "Python.25.07.24_04.executor": "Run",
-    "Python.25.07.29_5-1.executor": "Run",
-    "Python.3-1 Linear chirp.executor": "Run",
-    "Python.3-1_Exercise.executor": "Run",
-    "Python.3-2 Exc..executor": "Run",
-    "Python.3-2 Exponential Chirp.executor": "Run",
-    "Python.3-4_Exc.executor": "Run",
-    "Python.3-4_Spectrogram.executor": "Run",
-    "Python.3-6_Leakage.executor": "Run",
-    "Python.3-8_ Implementing spectrograms.executor": "Run",
-    "Python.4-1_Uncorrelated Noise.executor": "Run",
-    "Python.5-1_리스트.executor": "Run",
-    "Python.5-2_사전.executor": "Run",
-    "Python.5-3_튜플.executor": "Run",
-    "Python.5-4_세트.executor": "Run",
-    "Python.5-5_자료구조의 변경.executor": "Run",
-    "Python.5-6_퀴즈.executor": "Run",
-    "Python.6-1_If.executor": "Run",
-    "Python.6-2_for.executor": "Run",
-    "Python.6-3_while.executor": "Run",
-    "Python.6-4_continue & break.executor": "Run",
-    "Python.6-5_한줄 for.executor": "Run",
-    "Python.6-6_Quiz.executor": "Run",
-    "Python.7-(3, 4)_기본값, 키워드 값.executor": "Run",
-    "Python.7-1_함수.executor": "Run",
-    "Python.7-3_기본값.executor": "Run",
-    "Python.7-5_가변인자.executor": "Run",
-    "Python.7-6_지역변수 & 전역변수.executor": "Run",
-    "Python.7-7_ Quiz.executor": "Run",
-    "Python.8-1_표준입출력.executor": "Run",
-    "Python.8-2_다양한 출력포맷.executor": "Run",
-    "Python.8-3_파일 입출력.executor": "Run",
-    "Python.8-4_pickle.executor": "Run",
-    "Python.8-5_with.executor": "Run",
-    "Python.8-6_Quiz.executor": "Run",
-    "Python.9-10_프로젝트 후반전.executor": "Run",
-    "Python.9-1_클래스.executor": "Run",
-    "Python.9-2_init_.executor": "Run",
-    "Python.9-3_멤버변수.executor": "Run",
-    "Python.9-4_메소드.executor": "Run",
-    "Python.9-5_상속.executor": "Run",
-    "Python.9-6_다중 상속.executor": "Run",
-    "Python.9-7_메소드 오버 라이팅.executor": "Run",
-    "Python.9-8_pass.executor": "Run",
-    "Python.9-9_프로젝트 전반전.executor": "Run",
-    "Python.Quiz.executor": "Run",
-    "Python.Signals.executor": "Run",
-    "Python.Spectrogram.executor": "Run",
-    "Python.Test_audio_io.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.audio_io.executor": "Run",
-    "Python.features.executor": "Run",
-    "Python.filters.executor": "Run",
-    "Python.function_base.executor": "Run",
-    "Python.metadata_handler.executor": "Run",
-    "Python.practice (1).executor": "Run",
-    "Python.practice.executor": "Run",
-    "Python.test_analysis_pipeline.executor": "Run",
-    "Python.thailand.executor": "Run",
-    "Python.thinkdsp_Code.executor": "Run",
-    "Python.ㅇ.executor": "Run",
-    "Python.힙합.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Think_DSP",
-    "last_opened_file_path": "/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Suno_Enhance_Project/B02_tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Other File Types",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1-4_Reading and writing Waves.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1-5_Spectrums.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1-7_Signal objects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1-8_exercises.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1.9_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-1_예외처리.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-2_에러 발생시키기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-3_사용자 정의 예외처리.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-4_finally.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-5_퀴즈.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-1_모듈.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-6_pip install.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-7_내장함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-8_외장함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2-1 Triangle waves.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2-3 Aliasing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.4 Computing the spectrum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251111_A_IO_Learning_librosa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251115_A_IO_Def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251115_A_IO_if,else,elif.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251117_A_IO_raise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251118_A_IO_exists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251118_A_IO_path.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251118_A_IO_sf.read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251119_A_IO_librosa.read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251121_A_IO_Robustness.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251121_A_IO_load.audio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251121_A_IO_resample, to_mono.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251122_np_clip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251122_sf_write.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251124_Save_Audio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251126_librosa_stft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251127_np_abs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251128_Librosa_Display.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251128_Librosa_feature_rms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251128_Matplotlib_pyplot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251128_Plt.Savefig.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251128_librosa_amplitude.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251129_spectral_centroid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251211_Assemble.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251212_DC Offset Removal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251212_Level Nomalization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251213_IIR Butterworth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251213_Zero-phase_Filtering.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20251215_HPSS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.07.21_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.07.22_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.07.23_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.07.24_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25.07.29_5-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-1 Linear chirp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-1_Exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-2 Exc..executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-2 Exponential Chirp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-4_Exc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-4_Spectrogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-6_Leakage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-8_ Implementing spectrograms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4-1_Uncorrelated Noise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-1_리스트.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-2_사전.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-3_튜플.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-4_세트.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-5_자료구조의 변경.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-6_퀴즈.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-1_If.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-2_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-3_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-4_continue &amp; break.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-5_한줄 for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-6_Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-(3, 4)_기본값, 키워드 값.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-1_함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-3_기본값.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-5_가변인자.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-6_지역변수 &amp; 전역변수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-7_ Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-1_표준입출력.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-2_다양한 출력포맷.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-3_파일 입출력.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-4_pickle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-5_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-6_Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-10_프로젝트 후반전.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-1_클래스.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-2_init_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-3_멤버변수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-4_메소드.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-5_상속.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-6_다중 상속.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-7_메소드 오버 라이팅.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-8_pass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9-9_프로젝트 전반전.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Signals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Spectrogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_audio_io.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audio_io.executor&quot;: &quot;Run&quot;,
+    &quot;Python.features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metadata_handler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_analysis_pipeline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thailand.executor&quot;: &quot;Run&quot;,
+    &quot;Python.thinkdsp_Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ㅇ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.힙합.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Think_DSP&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimjisoo0319/PycharmProjects/AIRIS_Lab_Prep/Suno_Enhance_Project/B02_tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Other File Types&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/B02_tests" />
@@ -203,29 +193,7 @@
       <recent name="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A01_IO_DATA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.features">
-    <configuration name="20251213_Zero-phase_Filtering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIRIS_Lab_Prep" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/00_Reserch_lab/20251213_Zero-phase_Filtering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Spectrogram">
     <configuration name="20251215_HPSS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AIRIS_Lab_Prep" />
       <option name="ENV_FILES" value="" />
@@ -264,6 +232,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Phase0/week_1/day_3/25.07.23_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Spectrogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIRIS_Lab_Prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suno_Enhance_Project/A01_src/A_core_audio_engine/A02_signal_processing/Spectrogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Spectrogram" />
         <item itemvalue="Python.features" />
         <item itemvalue="Python.metadata_handler" />
         <item itemvalue="Python.20251215_HPSS" />
         <item itemvalue="Python.filters" />
-        <item itemvalue="Python.20251213_Zero-phase_Filtering" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765516473370</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="metadata_handler.py&#10;features.py&#10;최신화 및 수정 완료.">
+      <option name="closed" value="true" />
+      <created>1765944938880</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1765944938880</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +688,8 @@
     <MESSAGE value="Save_audio 함수 생성 완료.&#10;src --&gt; audio_io.py에 load,save_audio 함수 묶어서 관리" />
     <MESSAGE value="Spectrogram.py&#10;features.py&#10;코드 제작 완료.&#10;&#10;Test도 완료" />
     <MESSAGE value="apply_dc_offset_removal&#10;apply_normaliz&#10;def 제작 완료." />
-    <option name="LAST_COMMIT_MESSAGE" value="apply_dc_offset_removal&#10;apply_normaliz&#10;def 제작 완료." />
+    <MESSAGE value="metadata_handler.py&#10;features.py&#10;최신화 및 수정 완료." />
+    <option name="LAST_COMMIT_MESSAGE" value="metadata_handler.py&#10;features.py&#10;최신화 및 수정 완료." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AIRIS_Lab_Prep$5_2_.coverage" NAME="5-2_사전 Coverage Results" MODIFIED="1753788298577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Phase0/week_2/25.07.29_05" />
